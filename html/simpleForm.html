@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Using Forms</title>
+<style>
+	form { 
+  		display: block;
+  		margin-top: 0em;
+	}
+</style>
+</head>
+<body style="background-color:aliceblue;text-align:center">
+	<!-- Using forms to take user input in multiple ways -->
+	<center><br><br><h1 style="color:crimson">Registration Page</h1></center><br><br>
+	<form style="color:crimson" action="processForm.html">
+		Name <input type="text" placeholder="Your name here" required><span style="color: red">*</span><br><br>
+		Password <input type="password" placeholder="Type in your Password" required><span style="color: red">*</span><br><br>
+		Email <input type="email" placeholder="Your email"><br><br>
+		Age <input type="number" placeholder="Your Age"><br><br>
+		Qualification <input type="checkbox"> 10th 
+		<input type="checkbox"> 12th
+		<input type="checkbox"> Graduate<br><br>
+		Gender
+		<input type="radio" name="gender"> Male
+		<input type="radio" name="gender"> Female
+		<input type="radio" name="gender"> Prefer not to say <br><br>
+	
+	
+		<select multiple="multiple">
+			<option>Select your Country</option>
+			<option>England</option>
+			<option>Russia</option>
+			<option>US</option>
+			<option>India</option>
+			<option>Chile</option>
+		</select>
+		<br><br>
+		<center>
+		<input type="submit" value="Register">
+	</form>
+</body>
+</html>

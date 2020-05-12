@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibonacci Series</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var a = 1, b = 0, temp;
+		var num = prompt("Enter a number upto which series should be displayed: ");
+		document.write("Fiboncacci series upto "+ num + "<br><br>");
+		  while (a <= num){
+		    temp = a;
+		    a = a + b;
+		    b = temp;
+		    document.write(b + "<br>");
+		  }
+	</script>
+
+</body>
+</html>

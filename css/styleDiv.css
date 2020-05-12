@@ -1,0 +1,22 @@
+
+myDiv{
+	#mydiv{
+		background-color:aqua;
+		color:crimson;
+		height:50px;
+		width:200px
+	}
+	#twodiv{
+		background-color:DodgerBlue;
+		color:crimson;
+		height:210px;
+		width:400px
+	}
+	.para1{
+		color:crimson;
+	}
+	.para1>span{
+		background-color: white;
+		color: blue;
+	}
+}
